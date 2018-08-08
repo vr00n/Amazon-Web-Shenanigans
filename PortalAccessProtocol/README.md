@@ -1,3 +1,11 @@
+This was an attempt to create a dedicated portal to "semi-automatically" add IPs to security groups. 
+
+This was tested with an R-shiny app hosted on an EC2 instance.
+
+It uses a Google Form as a way for authorized users to request new IPs get added to the EC2 instance hosting the app.
+
+An authorized user checks incoming requests and runs a simple command to add the new IP.
+
 
 ## Server Side Changes
  1. Instal ModRewrite apache module - `sudo a2enmod rewrite`
